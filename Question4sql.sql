@@ -1,18 +1,6 @@
-﻿CREATE DATABASE Question3
-go
 
-use Question3
-go
 
-CREATE TABLE employees(
-	id int  IDENTITY(1,1) primary key 
-	,name varchar (50)
-	,department varchar (50)
-	,salary int 
-	,join_date date
-)
-go
-
+--Question 4
 CREATE TABLE ORDERS(
 	Order_id int primary key
 	,Date_Order varchar(30)
